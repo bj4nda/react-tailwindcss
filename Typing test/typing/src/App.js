@@ -1,7 +1,5 @@
 import {useState, useEffect, useRef} from "react"
 import randomWords from "random-words"
-import {ToastContainer, toast} from "react-toastify"
-import "react-toastify/dist/ReactToastify.css"
 const NUM_OF_WORDS = 200
 const SECONDS = 10
 
