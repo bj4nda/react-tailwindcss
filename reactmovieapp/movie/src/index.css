@@ -7,15 +7,17 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+  
 }
 
 .movie-card {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   border: 1px solid gray;
   border-radius: 10px;
   padding: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   margin: 20px;
   width: 300px;
 }
@@ -26,6 +28,10 @@
 
 .movie-card p {
   margin: auto;
+}
+
+ul {
+  list-style: none;
 }
 
 .header {
@@ -42,10 +48,11 @@
   text-align: center;
   margin-bottom: 32px;
 }
+
 article {
   display: flex;
   flex-direction: column;
-  padding: auto132px;
+  padding: 132px;
   margin: auto;
   max-width: 550px;
 }

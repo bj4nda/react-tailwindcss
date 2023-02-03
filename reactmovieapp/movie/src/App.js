@@ -16,7 +16,7 @@ function App() {
     <>
       <Header />
       <div className="App">
-        <article>
+        <section className="movies">
           {movieData.map(movie => (
             <MovieCard
               key={movie.name}
@@ -25,7 +25,7 @@ function App() {
               dateReleased={movie.dateReleased}
             />
           ))}
-        </article>
+        </section>
       </div>
     </>
   )
