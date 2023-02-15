@@ -1,4 +1,4 @@
-export default [
+export const data = [
   {
     questionid: 1,
     question: "Select your data",
